@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recepção Sakai</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init({
+              publicKey: "P2UNyN0ZYE_okizUq",
+            });
+        })();
+    </script>
+</head>
+<body>
+    <section id="container">
+        
+        <div id="content">
+            
+            <form action="#" id="formulario">
+                <div class="dados-form">
+                    <label for="nome">Nome:</label>
+                    <input id="nome" name="nome" type="text">
+                </div>
+                <div class="dados-form">
+                    <label for="telefone">Telefone:</label>
+                    <input id="telefone" name="telefone" type="text">
+                </div>
+                <div class="dados-form">
+                    <label for="carro">Carro de Interesse:</label>
+                    <input id="carro" name="carro" type="text" placeholder="modelo / versão">
+                </div>
+                <div class="dados-form">
+                    <label for="canal-comunicacao">Canal de Comunicação:</label>
+                    <input id="canal-comunicacao" name="canal-comunicacao" type="text" placeholder="Radio, tv, outdoor...">
+                </div>
+                <div class="dados-form">
+                    <label for="vendedor">Vendedor:</label>
+                    <input id="vendedor" name="vendedor" type="text">
+                </div>
+                <div class="dados-form"><button type="submit" id="btn-enviar">Enviar e-mail</button></div>
+            </form>
+        </div>
+
+    </section>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
+
+<!--https://cdn.emailjs.com/dist/email.min.js-->

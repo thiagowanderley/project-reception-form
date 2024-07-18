@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(43, 43, 43);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section#container {
+    width: 50vw;
+    height: 70vh;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 10px #00000099;
+}
+
+div#content {
+    width: 50%;
+}
+
+div.dados-form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+input {
+    width: 100%;
+    height: 22px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(218, 218, 218);
+    padding: 5px;
+    font-size: 1.0em;
+}
+
+button {
+    margin: auto;
+    margin-top: 10px;
+    height: 45px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #D9000D;
+}
+
+button:hover {
+    box-shadow: 2px 2px 5px #14141499;
+    cursor: pointer;
+    background-color: #d9000ead;
+    transition: 0.1s;
+}
